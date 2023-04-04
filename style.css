@@ -1,0 +1,20 @@
+.table {
+    font-family: "Arial", sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    border: 1px solid #DDDDDD;
+}
+
+.table th {
+    background-color: #F2F2F2;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #F2F2F2;
+}
